@@ -1,0 +1,160 @@
+table, th{
+border:0;
+padding:4px;
+spacing:2px;
+width:50%;
+background-color:#CCCCFF;
+colspan:2
+
+}
+body{
+	background-image: url(../images/online_database_restaurant.jpg);
+	background-repeat: repeat;
+	width: 100%;
+	height:100%
+}
+
+tr{
+background-color:#c8d8f8;
+}
+td{
+text-align:top;
+}
+input{
+maxlength:20
+size:15;
+}
+.headerDiv {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.headerRoundedBorder {
+	background:#420906;
+	background-repeat: repeat-x;
+	font-family: Lucida Grande;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	height: 27px;
+	width: 50%;
+	color: white;
+}
+.snacksRoundedBorder {
+	/*background-image: url(../images/headerImage.gif);*/
+	background:#CE3842;
+	background-repeat: repeat-x;
+	font-family: Lucida Grande;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	height: 27px;
+	width: 50%;
+	color: white;
+}
+
+.headerText {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Lucida Grande;
+	color: white;
+	padding-left: 1%;
+	padding-top: 2px;
+}
+.snacksText {
+	font-size: 20px;
+	font-weight: 100;
+	font-family: Lucida Grande;
+	color: white;
+	padding-left: 1%;
+	padding-top: 2px;
+}
+
+.hotDrinksText {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Lucida Grande;
+	color: white;
+	padding-left: 1%;
+	padding-top: 2px;
+}
+.bevText {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Lucida Grande;
+	color: white;
+	padding-left: 1%;
+	padding-top: 2px;
+}
+.mainCourseText {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Lucida Grande;
+	color: white;
+	padding-left: 1%;
+	padding-top: 2px;
+}
+.newLetterSelectionBorder {
+	width: 88%;
+	-webkit-border-radius: .5em;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BBBBBB),
+		to(#EEEEEE) ); #
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	border: #AAAAAA solid 1px;
+	min-height: 10px;
+	font-family: Lucida Grande;
+	font-size: 11px;
+	color: #4A4A4A;
+	padding-right: 10%;
+}
+.newsLetterForm {
+	width: 100%;
+	padding-left: 3%;
+}
+.tableHeader {
+	background-color: #E0E8E8;
+	}
+.tableFooter {
+	background-color: #E0E8E8;
+	}
+.tableRowOdd {
+	background-color: #FFFFFF;
+	}
+.tableRowEven {
+	background-color: #EEF0F0;
+	}
+a {
+	text-decoration: none;
+	color: #337799;
+	font-weight: bolder;
+}
+a:hover {
+	text-decoration:underline;
+	color: #FF5555;
+	font-weight: bolder;
+	}
+td {
+	text-align: left;
+	}
+.errorMessage {
+	color : #FF0000;
+	font-weight: bolder;
+	}
+.errorStackTrace {
+	color : #000000;
+	}
+.formUserError {
+	color : #FF0000;
+	font-weight: bolder;
+  }	
+.buttonContainer {
+	border: 1px solid #310832;
+	width: 70px;
+	height: 25px;
+	background-color: #4732CE;
+	border-radius: 5px;
+	float: left;
+	margin-left: 0px;
+	color:white;
+/* 	margin-top: 15px; */
+	cursor: pointer;
+}
